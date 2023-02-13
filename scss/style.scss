@@ -1,0 +1,359 @@
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    background: #240e26;
+}
+.container{
+    width: 80%;
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+img{
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+}
+img:hover{
+    transform: rotate(360deg);
+    transition: all 3s ease;
+}
+
+button{
+    background: linear-gradient(85.63deg, #F827DE -9.39%, #2B14F9 114.93%);
+    border-radius: 8px;
+    width: 193px;
+    height: 66px;
+    color: #FFFFFF;
+    font-family: 'Exo';
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;           
+}
+
+button:hover{
+    background:transparent;
+    border: 1px solid #F827DE;
+}
+
+p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2{
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    flex-wrap: nowrap;
+    nav{
+        display: flex;
+        img{
+            width: 53px;
+            height: 56px;
+            margin-top: 73px;
+        }
+        ul{
+            display: flex;
+            gap: 50px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            margin-top: 90px;
+            margin-left: 98px;
+            cursor: pointer;
+            li:hover{
+                color: #CC23E4;
+                text-decoration: underline;
+            }
+        }
+    }
+    .hamburger-menu{
+        display: none;
+    }
+
+    .main_content{
+        margin-top: 144px;
+        h1{
+            font-family: 'Exo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 81px;
+        }
+        div{
+            width: 250px;
+            position: absolute;
+            margin-top: -78px;
+            margin-left: 210px;
+            z-index: -1;
+            height: 36px;
+            background: linear-gradient(269.43deg, #DF25E1 -10.55%, #5218F4 114.67%);
+        }
+        p{
+            font-size: 24px;
+            line-height: 31px;
+            margin-top: 55px;
+        }
+        button{
+            margin-top: 55px;
+        }
+        .create_btn{
+            margin-left: 30px;
+            background:transparent;
+            border: 1px solid #F827DE;
+        }
+        .create_btn:hover{
+            background: linear-gradient(85.63deg, #F827DE -9.39%, #2B14F9 114.93%);
+        }
+    }
+    div{
+        .nav_btn{
+            position: absolute;
+            margin-top: 57px;
+            margin-left: 300px;
+            background:transparent;
+            width: 251px;
+            height: 66px;
+            border: 2px solid #FFFFFF;
+            border-radius: 8px;
+        }
+        .nav_btn:hover{
+            color:yellow;
+            border:2px solid yellow;
+        }
+    }
+}
+
+
+section{
+    margin-top: 145px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .content{
+        h2{
+            font-size: 46px;
+            margin-bottom: 66px;
+        }
+        p{
+            padding-top: 8px;
+            padding-left: 30px;
+            font-size: 26px;
+        }
+        div{
+            display: flex;
+            .numbers{
+                width: 48px;
+                height: 48px;
+                background: linear-gradient(127.41deg, rgba(218, 37, 226, 0.2) 14.83%, rgba(87, 24, 243, 0.2) 110.24%, rgba(255, 245, 238, 0.2) 110.24%);
+                backdrop-filter: blur(2px);
+                border-radius: 14px;
+                font-family: 'Exo';
+                font-weight: 700;
+                font-size: 22px;
+                padding: 10px 19px;
+                margin-bottom: 37px;
+            }
+        }
+        button{
+            margin-top: 55px;
+        }
+    }
+}
+
+
+.images{
+    flex-wrap: wrap;
+    justify-content: center;
+    h2{
+        font-size: 46px;
+    }
+    div{
+        display: flex;
+        margin-top: 79px;
+        img{
+            margin-left: 45px;
+            border-radius: 40px;
+            width: 368px;
+            height: 488px;
+        }
+        img:first-child{
+            margin-left: -80px;
+        }
+        img:nth-child(2){
+            margin-top: 125px;
+        }
+    }
+}
+
+
+.nfts_400{
+    display: block;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    .nfts_content{
+        width: 56%;
+        margin-left: auto;
+        margin-right: auto;
+        h2{
+            font-size: 46px;
+            margin-bottom: 66px;
+            text-align: center;
+        }
+        p{
+            padding-top: 8px;
+            padding-left: 30px;
+            font-size: 26px;
+        }
+        div{
+            display: flex;
+            .numbers{
+                width: 48px;
+                height: 48px;
+                background: linear-gradient(127.41deg, rgba(218, 37, 226, 0.2) 14.83%, rgba(87, 24, 243, 0.2) 110.24%, rgba(255, 245, 238, 0.2) 110.24%);
+                backdrop-filter: blur(2px);
+                border-radius: 14px;
+                font-family: 'Exo';
+                font-weight: 700;
+                font-size: 22px;
+                padding: 10px 19px;
+                margin-bottom: 37px;
+            }
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+.road_map_title{
+    text-align: center;
+    font-family: 'Exo';
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 152px;
+}
+
+.road_map{
+    display: flex;
+    margin-top: 67px;
+    flex-wrap: nowrap;
+    h2{
+        font-size: 52px;
+        text-align: center;
+    }
+    .even{
+        margin-left: 60px;
+        margin-top: 60px;
+    }
+    .card{
+        background: linear-gradient(127.41deg, rgba(218, 37, 226, 0.2) 14.83%, rgba(87, 24, 243, 0.2) 110.24%, rgba(255, 245, 238, 0.2) 110.24%);
+        border-radius: 14px;
+        .card_content{
+            padding: 33px 56px;
+            display: block;
+            div{
+                display: flex;
+                .numbers{
+                    width: 48px;
+                    height: 48px;
+                    background: linear-gradient(127.41deg, rgba(218, 37, 226, 0.2) 14.83%, rgba(87, 24, 243, 0.2) 110.24%, rgba(255, 245, 238, 0.2) 110.24%);
+                    backdrop-filter: blur(2px);
+                    border-radius: 14px;
+                    font-family: 'Exo';
+                    font-weight: 700;
+                    font-size: 22px;
+                    padding: 10px 19px;
+                    margin-bottom: 37px;
+                }
+                p{
+                    padding-top: 8px;
+                    padding-left: 30px;
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+    .card:nth-child(n+2){
+        margin-top: 79px;
+    }
+    .card:nth-child(even){
+        margin-left: 4px;
+    }
+}
+
+.mansion_title{
+    margin-top: 153px;
+    text-align: center;
+    font-family: 'Exo';
+    font-weight: 700;
+    font-size: 52px;
+}
+
+footer{
+    background:url('../images/footer_img.png') center center/cover no-repeat;
+    height: 193px;
+    margin-top: 99px;
+    .footer_content{
+        display: flex;
+        justify-content: space-between;
+        .footer_logo{
+            width: 83px;
+            height: 86px;
+            margin-top: 61px;
+        }
+        ul{
+            display: flex;
+            gap: 72px;
+            margin-top: 90px;
+            cursor: pointer;
+            li:hover{
+                color: #CC23E4;
+                text-decoration: underline;
+            }
+        }
+        .links{
+            display: flex;
+            gap: 20px;
+            cursor: pointer;
+            .link_discord{
+                background: linear-gradient(135.83deg, rgba(216, 227, 255, 0.2) 100%, rgba(255, 245, 238, 0.102) 83.39%, rgba(221, 231, 255, 0) 83.39%);
+                border-radius: 14px;
+                margin-top: 79px;
+                padding: 14px 11px;
+                width: 52px;
+                height: 52px;
+            }
+            .link_twitter{
+                background:linear-gradient(135.83deg, rgba(216, 227, 255, 0.2) 100%, rgba(255, 245, 238, 0.102) 83.39%, rgba(221, 231, 255, 0) 83.39%);
+                border-radius: 14px;
+                margin-top: 79px;
+                padding: 14px 11px;
+                width: 52px;
+                height: 52px;
+            }
+        }
+    }
+}

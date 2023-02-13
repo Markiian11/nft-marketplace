@@ -1,0 +1,545 @@
+@media (max-width: 1920px) {
+  main {
+    margin-left: 160px;
+  }
+  section {
+    justify-content: space-evenly;
+  }
+  .nfts_400 .nfts_content {
+    width: 40%;
+  }
+  .road_map {
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  main {
+    flex-wrap: nowrap;
+    margin-left: 50px;
+  }
+  main nav ul {
+    font-size: 16px;
+    margin-left: 45px;
+    gap: 20px;
+  }
+  main .main_content h1 {
+    font-size: 50px;
+    margin-top: -90px;
+  }
+  main .main_content p {
+    font-size: 20px;
+  }
+  main .main_content div {
+    width: 150px;
+    margin-top: -46px;
+    margin-left: 120px;
+  }
+  main .main_content button {
+    width: 170px;
+  }
+  main .nav_btn {
+    display: none;
+  }
+  section {
+    flex-wrap: nowrap;
+  }
+  .images div {
+    display: flex;
+    margin-top: 79px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .images div img {
+    margin-left: 10px;
+    border-radius: 40px;
+    width: 368px;
+    height: 488px;
+  }
+  .images div img:first-child {
+    margin-left: -40px;
+  }
+  .images div img:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .nfts_400 .nfts_content {
+    width: 56%;
+  }
+  .road_map .card .card_content {
+    padding: 34px 38px;
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  main {
+    flex-wrap: wrap;
+  }
+  main nav {
+    margin-top: -25px;
+  }
+  main nav ul {
+    gap: 50px;
+    margin-top: 70px;
+  }
+  main .main_content h1 {
+    margin-top: -80px;
+    font-size: 50px;
+  }
+  main .main_content div {
+    margin-left: 130px;
+    width: 150px;
+    margin-top: -48px;
+  }
+  main .main_content p {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  main .main_content button {
+    width: 170px;
+    margin-top: 10px;
+  }
+  main div img {
+    margin-top: 50px;
+  }
+  section {
+    flex-wrap: nowrap;
+  }
+  section .content {
+    margin-left: 20px;
+  }
+  section .content p {
+    font-size: 22px;
+    padding-left: 20px;
+  }
+  section .content h2 {
+    font-size: 35px;
+  }
+  section .content button {
+    margin-top: 5px;
+  }
+  .images h2 {
+    font-size: 42px;
+  }
+  .images div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .images div img:first-child {
+    margin-left: 0px;
+    margin-bottom: 35px;
+  }
+  .images div img:nth-child(2) {
+    margin-left: 20px;
+  }
+  .images div img:nth-child(3) {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .nfts_400 .nfts_content p {
+    font-size: 22px;
+    padding-left: 20px;
+  }
+  .road_map .card .card_content div p {
+    font-size: 19px;
+    padding-left: 20px;
+  }
+  .road_map .card .card_content div .numbers {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    display: block;
+  }
+  main .main_content div {
+    margin-left: 130px;
+  }
+  main .main_content p {
+    margin-top: 15px;
+  }
+  main .main_content button {
+    margin-top: 15px;
+  }
+  section .content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  section .content div p {
+    padding-left: 10px;
+    font-size: 19px;
+  }
+  section .content button {
+    margin-top: 35px;
+  }
+  .images h2 {
+    text-align: center;
+  }
+  .images div {
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .images div img:nth-child(2) {
+    margin-top: 35px;
+    margin-left: 0;
+  }
+  .road_map .card .card_content {
+    padding: 30px 13px;
+  }
+  .road_map .card .card_content div .numbers {
+    margin-left: 5px;
+  }
+  .road_map .card .card_content div p {
+    padding-left: 7px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  main {
+    margin-left: 20px;
+  }
+  main nav ul {
+    display: none;
+  }
+  main div img {
+    margin-left: -10px;
+  }
+  main .hamburger-menu {
+    display: block;
+  }
+  main #menu__toggle {
+    opacity: 0;
+  }
+  main .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 45px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  main .menu__btn > span,
+  main .menu__btn > span::before,
+  main .menu__btn > span::after {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    display: block;
+    height: 3px;
+    background: linear-gradient(85.63deg, #F827DE -9.39%, #2B14F9 114.93%);
+    margin-bottom: 5px;
+    transition: all 0.5s;
+  }
+  main .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  main .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  main .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  }
+  main .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  main .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  main #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  main #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  main #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  main #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  main .menu__btn > span,
+  main .menu__btn > span::before,
+  main .menu__btn > span::after {
+    transition-duration: 0.25s;
+  }
+  main .menu__box {
+    transition-duration: 0.6s;
+  }
+  main .menu__item {
+    transition-duration: 0.25s;
+  }
+  main .main_content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .main_content h1 {
+    font-size: 45px;
+  }
+  main .main_content div {
+    margin-left: 110px;
+    width: 150px;
+    margin-top: -44px;
+  }
+  main .main_content p {
+    font-size: 15px;
+  }
+  main .main_content button {
+    margin-left: 0;
+    width: 150px;
+  }
+  section {
+    margin-top: 50px;
+    flex-wrap: wrap-reverse;
+  }
+  section .content {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
+  section .content h2 {
+    font-size: 35px;
+  }
+  section .content div p {
+    font-size: 17px;
+  }
+  section .content button {
+    margin-top: 10px;
+  }
+  .images div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nfts_400 .nfts_content {
+    width: 80%;
+  }
+  .nfts_400 .nfts_content div p {
+    font-size: 18px;
+    padding-left: 7px;
+  }
+  .road_map_title {
+    margin-top: 20px;
+  }
+  .road_map {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .road_map .card:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .road_map .odd {
+    margin-top: 10px;
+  }
+  .road_map .odd .card .card_content div .numbers .numbers_5 {
+    visibility: hidden;
+  }
+  .road_map .odd .card .card_content div .numbers .numbers_6 {
+    visibility: hidden;
+  }
+  .road_map .odd .card .card_content div .numbers_5:before {
+    visibility: visible;
+    content: "3";
+  }
+  .road_map .odd .card .card_content div .numbers_6:before {
+    visibility: visible;
+    content: "4";
+  }
+  .road_map .even {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .road_map .even .card .card_content div .numbers .numbers_3 {
+    visibility: hidden;
+  }
+  .road_map .even .card .card_content div .numbers .numbers_4 {
+    visibility: hidden;
+  }
+  .road_map .even .card .card_content div .numbers_3:before {
+    visibility: visible;
+    content: "5";
+  }
+  .road_map .even .card .card_content div .numbers_4:before {
+    visibility: visible;
+    content: "6";
+  }
+  .mansion_title {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .mansion {
+    flex-wrap: wrap;
+  }
+  .reverse {
+    flex-wrap: wrap;
+  }
+  footer {
+    height: 312px;
+    margin-top: 10px;
+  }
+  footer .footer_content {
+    display: block;
+  }
+  footer .footer_content .footer_logo {
+    width: 50px;
+    height: 59px;
+    margin-top: 49px;
+    padding-top: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer .footer_content ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  footer .footer_content .links {
+    justify-content: center;
+  }
+  footer .footer_content .links .link_discord {
+    margin-top: 50px;
+  }
+  footer .footer_content .links .link_twitter {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 375px) {
+  main {
+    margin-left: 20px;
+  }
+  main nav ul {
+    display: none;
+  }
+  main .main_content h1 {
+    font-size: 50px;
+  }
+  main .main_content div {
+    margin-left: 125px;
+    width: 150px;
+    margin-top: -45px;
+    height: 25px;
+  }
+  main .main_content p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  main .main_content button {
+    width: 140px;
+    margin-left: 0;
+  }
+  section {
+    flex-wrap: wrap-reverse;
+    margin-top: 30px;
+  }
+  section div img {
+    margin-top: 20px;
+  }
+  section .content h2 {
+    text-align: center;
+    font-size: 26px;
+  }
+  section .content div p {
+    font-size: 15px;
+  }
+  section .content button {
+    margin-left: 50px;
+  }
+  section div img {
+    display: block;
+    width: 273px;
+    height: 361px;
+  }
+  .images h2 {
+    font-size: 30px;
+  }
+  .images div {
+    margin-left: 30px;
+  }
+  .images div img {
+    width: 273px;
+    height: 361px;
+    border: 4px solid white;
+  }
+  .nfts_400 .nfts_content {
+    width: 88%;
+  }
+  .nfts_400 .nfts_content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .nfts_400 .nfts_content div p {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  .road_map_title {
+    margin-top: 30px;
+    font-size: 26px;
+  }
+  .road_map {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .road_map .card:nth-child(n+2) {
+    margin-top: 20px;
+  }
+  .mansion_title {
+    margin-top: 30px;
+    font-size: 28px;
+  }
+  .mansion .content {
+    margin-top: 40px;
+  }
+  footer {
+    height: 312px;
+    margin-top: 10px;
+  }
+  footer .footer_content {
+    display: block;
+  }
+  footer .footer_content ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  footer .footer_content .links {
+    justify-content: center;
+  }
+  .reverse {
+    flex-wrap: wrap;
+  }
+  .mansion {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
